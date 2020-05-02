@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CodeLens (Launch) - MajorityElement",
+            "request": "launch",
+            "mainClass": "MajorityElement",
+            "projectName": "vscodes_bc72ce80"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LengthOfLongestSubstring",
+            "request": "launch",
+            "mainClass": "LengthOfLongestSubstring",
+            "projectName": "vscodes_bc72ce80"
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
