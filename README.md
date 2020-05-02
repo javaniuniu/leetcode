@@ -1,6 +1,8 @@
 # leetcode
 leetcode 题解代码
 
+[vscodes 有Java和python版代码](./vscodes)
+
 | 题目 |
 | :-----|
 |[1095. 山脉数组中查找目标值](./1095. 山脉数组中查找目标值.ipynb)|
