@@ -1,8 +1,15 @@
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class LengthOfLongestSubstring {
     private static LengthOfLongestSubstring lengthOfLongestSubstring = new LengthOfLongestSubstring();
+    /**
+     * 活动窗口 方法一
+     * @param s
+     * @return
+     */
     public int lengthOfLongestSubstring(String s) {
         int left = 0;
         Set<Character> lookup = new HashSet<>();
@@ -22,9 +29,30 @@ public class LengthOfLongestSubstring {
         }
         return max_len;
     }
+
+    /**
+     * 滑动窗口方法二
+     * @param s
+     * @return
+     */
+    public int lengthOfLongestSubstrings(String s) {
+        int n = s.length(), ans = 0;
+        Map<Character, Integer> map = new HashMap<>();
+        for (int end = 0, start = 0; end < n; end++) {
+            char alpha = s.charAt(end);
+            if (map.containsKey(alpha)) {
+                start = Math.max(map.get(alpha), start);
+            }
+            ans = Math.max(ans, end - start + 1);
+            map.put(s.charAt(end), end + 1);
+        }
+        return ans;
+    }
+
+
     public static void main(String[] args) {
-        String s = "abcabcbb";
-        int max = lengthOfLongestSubstring.lengthOfLongestSubstring(s);
+        String s = "pwwkew";
+        int max = lengthOfLongestSubstring.lengthOfLongestSubstrings(s);
         System.out.println(max);
     }
 }
