@@ -1,10 +1,11 @@
 class Solution(object):
+    # 摩尔投票法思路
     def majorityElement(self, nums):
-        res = []
-        majorityO = -1
-        majorityT = -1
-        countO = 0
-        countT = 0
+        res = [] # 返回数组
+        majorityO = -1 # 候选人1
+        majorityT = -1 # 候选人2
+        countO = 0 # 候选人1 票数
+        countT = 0 # 候选人2 票数
         for num in nums:
             if countO == 0 and num != majorityT:
                 majorityO = num
