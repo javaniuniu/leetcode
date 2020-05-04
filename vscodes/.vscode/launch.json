@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IsValid",
+            "request": "launch",
+            "mainClass": "IsValid",
+            "projectName": "vscodes_bc72ce80"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Jump",
+            "request": "launch",
+            "mainClass": "Jump",
+            "projectName": "vscodes_bc72ce80"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - KLengthApart",
             "request": "launch",
             "mainClass": "KLengthApart",
