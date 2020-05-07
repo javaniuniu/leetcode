@@ -13,7 +13,6 @@ public class LongestSubarray {
         int curr_max = nums[0]; // 当子数组下最大值 这里初始化为第一个数
         int curr_min = nums[0]; // 当子数组下最大值 这里初始化为第一个数
         Queue<Integer> sub_nums = new LinkedList<>();
-        // List<Integer> sub_nums = new ArrayList<>();
         for(int num:nums){
             if (Math.abs(num - curr_max) <=  limit && Math.abs(num - curr_min) <=  limit && Math.abs(curr_max - curr_min) <= limit) {
                 curr_max = Math.max(num,curr_max);
