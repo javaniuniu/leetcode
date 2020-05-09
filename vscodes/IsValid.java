@@ -1,7 +1,5 @@
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Map;
 
 public class IsValid {
@@ -12,6 +10,11 @@ public class IsValid {
      * @return
      */
     private static Map<Character, Character> map = new HashMap<>() {
+        /**
+         *
+         */
+        private static final long serialVersionUID = 1L;
+
         {
             put('[', ']');
             put('{', '}');
@@ -22,6 +25,11 @@ public class IsValid {
 
     public boolean isValid(String s) {
         LinkedList<Character> stack = new LinkedList<>() {
+            /**
+             *
+             */
+            private static final long serialVersionUID = 1L;
+
             {
                 add('?');
             }
@@ -37,7 +45,7 @@ public class IsValid {
 
     }
 
-    public boolean isValids(String s) {
+    public boolean isVadis(String s) {
         while(s.contains("{}") || s.contains("[]") || s.contains("()") ){
             s.replace("{}", "");
             s.replace("[]", "");
@@ -49,7 +57,7 @@ public class IsValid {
     public static void main(String[] args) {
         String str = "()";
         IsValid sIsValid = new IsValid();
-        boolean bool =  sIsValid.isValids(str);
+        boolean bool =  sIsValid.isVadis(str);
         System.out.println(bool);
     }
 }

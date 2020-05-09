@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 /**
  * 5400. 旅行终点站
@@ -10,8 +9,8 @@ public class DestCity {
             String end = li.get(1);
             for(int j = 0;j<paths.size();j++) {
                 List<String> li_start = paths.get(j);
-                String strt = li.get(0);
-                if(!end.equals(strt)) {
+                String start = li.get(0);
+                if(!end.equals(start)) {
                     return end;
 
                 }
