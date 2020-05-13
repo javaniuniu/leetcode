@@ -1,13 +1,4 @@
-
-// / Definition for singly-linked list.
-public class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
+import Util.ListNode;
 
 /**
  * 21. 合并两个有序链表

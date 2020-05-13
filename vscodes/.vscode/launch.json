@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SingleNumber",
+            "request": "launch",
+            "mainClass": "SingleNumber",
+            "projectName": "vscodes_bc72ce80"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LengthOfLongestSubstrings",
+            "request": "launch",
+            "mainClass": "LengthOfLongestSubstrings",
+            "projectName": "vscodes_bc72ce80"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindRadius",
+            "request": "launch",
+            "mainClass": "FindRadius",
+            "projectName": "vscodes_bc72ce80"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ReverseWords",
             "request": "launch",
             "mainClass": "ReverseWords",

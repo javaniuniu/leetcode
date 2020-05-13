@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
+import Util.ListNode;
+
 /**
  * 23. 合并K个排序链表
  */
