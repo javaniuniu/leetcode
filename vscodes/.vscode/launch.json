@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ArrangeWords",
+            "request": "launch",
+            "mainClass": "ArrangeWords",
+            "projectName": "vscodes_bc72ce80"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IsMatch",
+            "request": "launch",
+            "mainClass": "IsMatch",
+            "projectName": "vscodes_bc72ce80"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MyAtoi",
             "request": "launch",
             "mainClass": "MyAtoi",
