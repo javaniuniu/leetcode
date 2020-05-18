@@ -11,16 +11,13 @@ class Solution(object):
             for j, y in enumerate(fav_set):
                 if i ==j:
                     continue
-                if x&y == x:
+                if x&y == x: # 通过判断交集，来防止数据重复录入
                     flag = 1
                     break
             if flag == 0:
                 ans.append(i)
                     
         return ans
-            
-       
-            
-        
 favoriteCompanies = [["leetcode","google","facebook"],["google","microsoft"],["google","facebook"],["google"],["amazon"]]
-Solution().peopleIndexes(favoriteCompanies)
+Solution().peopleIndexes(favoriteCompanies)           
+    

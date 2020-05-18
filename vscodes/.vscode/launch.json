@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PeopleIndexes",
+            "request": "launch",
+            "mainClass": "PeopleIndexes",
+            "projectName": "vscodes_bc72ce80"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ArrangeWords",
             "request": "launch",
             "mainClass": "ArrangeWords",
