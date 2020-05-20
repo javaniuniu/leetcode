@@ -1,7 +1,5 @@
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Map;
-import java.util.Queue;
 
 /**
  * 560. 和为K的子数组

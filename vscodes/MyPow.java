@@ -37,7 +37,7 @@ public class MyPow {
 
     public static void main(String[] args) {
         MyPow myPow = new MyPow();
-        // myPow.getList();
+        myPow.getList();
         // double d = myPow.myPow(2.00000, 10);
         System.out.println(4&2);
     }

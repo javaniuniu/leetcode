@@ -19,6 +19,7 @@ public class Reverse {
     public static void main(String[] args) {
         Reverse reverse = new Reverse();
         int c = reverse.reverse(-100);
+        System.out.println(c);
         System.out.println(-1%10);
     }
 

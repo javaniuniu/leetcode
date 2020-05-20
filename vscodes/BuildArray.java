@@ -26,7 +26,6 @@ public class BuildArray {
     public static void main(String[] args) {
         BuildArray bArray = new BuildArray();
         int[] target = new int[]{1,3};
-        int n = 5;
         System.out.println(bArray.buildArray(target,3));
     }
     

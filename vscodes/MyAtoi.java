@@ -29,7 +29,6 @@ public class MyAtoi {
 
     public static void main(String[] args) {
         MyAtoi myAtoi = new MyAtoi();
-        char c = '+';
 
         System.out.println('+' - 1);
         System.out.println(myAtoi.myAtoi("2000000000000000000000000000000000000"));
