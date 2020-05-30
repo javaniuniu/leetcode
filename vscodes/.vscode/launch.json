@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IsPrefixOfWord",
+            "request": "launch",
+            "mainClass": "IsPrefixOfWord",
+            "projectName": "vscodes_bc72ce80"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FourSum",
             "request": "launch",
             "mainClass": "FourSum",
